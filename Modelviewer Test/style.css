@@ -1,4 +1,15 @@
-model-viewer{
+html, body, :host {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+model-viewer {
+    height: 100%;
+    width: 100%;
     background-color: #eee;
     overflow-x: hidden;
 }
